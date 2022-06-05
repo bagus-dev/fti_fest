@@ -1,0 +1,51 @@
+.small-sub{
+  position: relative;
+  left: 190px;
+  top: -33px;
+}
+.sub-data{
+  position: absolute;
+  left: 35px;
+  top: 53px;
+}
+.sub-data2{
+  position: absolute;
+  left: 38px;
+  top: 362px;
+}
+@media(max-width: 991px){
+  .sub-data2{
+    top: 385px;
+  }
+}
+@media(max-width: 767px){
+  .sub-data2{
+    top: 534px;
+  }
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.foto-daftar{
+  height:102%;
+  width:100%;
+}
+.foto-daftar2{
+  height:103;
+  width:108.6%;
+}
+@media(max-width: 600px){
+  .foto-daftar2{
+    width: 108.2%;
+  }
+}
+@media(max-width: 567px){
+  .foto-daftar2{
+    width: 108.4%;
+  }
+}
+@media(max-width: 500px){
+  .foto-daftar2{
+    width: 109.8%;
+  }
+}
